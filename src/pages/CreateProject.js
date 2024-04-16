@@ -90,7 +90,7 @@ function CreateProject() {
           <h2>Your Edit</h2>
           {uploadedFile && (
             <div>
-              <video autoPlay="true" autoPlay controls loop>
+              <video autoPlay="true" controls loop>
                 <source
                   src={URL.createObjectURL(uploadedFile)}
                   type="video/mp4"
