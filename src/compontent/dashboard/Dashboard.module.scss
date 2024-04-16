@@ -1,0 +1,44 @@
+.searchInput{
+    border: 1px solid;
+    outline: 0;
+    padding: 5px 15px;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.dashboardWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.recentBox{
+    height: 250px;
+    width: 350px;
+}
+
+.recentVideoSection{
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+/* Add this CSS to style the scrollbar */
+.recentVideoSection::-webkit-scrollbar {
+    height: 10px;
+    border: 2px solid;
+    border-radius: 6px;
+}
+
+/* Track */
+.recentVideoSection::-webkit-scrollbar-track {
+    background: transparent; /* Track color */
+}
+
+/* Handle */
+.recentVideoSection::-webkit-scrollbar-thumb {
+    background: rgb(101, 99, 99); /* Thumb color */
+    border-radius: 10px; /* Rounded corners */
+}
